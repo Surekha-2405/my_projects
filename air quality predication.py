@@ -77,15 +77,3 @@ def main():
 
 if _name_ == "_main_":
     main()
-# Clone your repository (if not already cloned)
-git clone https://github.com/Surekha-2405/my_projects.git
-cd my_projects
-
-# Delete the file
-git rm "air quality predication.py"
-
-# Commit the change
-git commit -m "Delete air quality predication.py"
-
-# Push the change to GitHub
-git push
